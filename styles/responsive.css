@@ -1,0 +1,75 @@
+@media screen and (max-width: 576px) {
+
+    /* nav section start */
+    .nav_title {
+        font-size: 1.8rem;
+    }
+
+    .nav_link {
+        text-decoration: none;
+        font-size: 1rem;
+        color: #FFFFFF;
+        font-weight: 500;
+        display: none;
+    }
+
+    .nav_button {
+        display: none;
+    }
+
+    .nav_icon {
+        display: block;
+        font-size: 1.8rem;
+        color: white;
+    }
+
+    /* nav section end */
+
+    /* about section start */
+    .about_content {
+        padding-top: 2rem;
+    }
+
+    .about_title {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+
+    .paragraph_1,
+    .paragraph_2 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .paragraph_2{
+    padding-bottom: 40px;
+}
+
+    /* div 2 */
+    .about_card_container {
+        padding-top: 30px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .card {
+        padding: 8px 8px;
+    }
+
+    .card_title {
+        font-size: 1.8rem;
+    }
+
+    .average_icon {
+        font-size: 1.5rem;
+    }
+
+    .card_text {
+        font-size: 10px;
+    }
+
+    /* about section end */
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    */
+}

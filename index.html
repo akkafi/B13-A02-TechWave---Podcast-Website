@@ -8,6 +8,8 @@
 
     <!-- custom CSS Link -->
     <link rel="stylesheet" href="./styles/style.css">
+    <!-- responsive css link -->
+    <link rel="stylesheet" href="./styles/responsive.css">
 
     <!-- google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,26 +17,96 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
+
+    <!-- font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <!-- header section start here -->
     <header>
         <!-- nav section start  -->
-        <nav class="nav_container container">
-            <h2 class="nav_title">Tech <span id="nav_title_gradient_color">Wave</span></h2>
+        <nav class="nav_container ">
+            <div class="nav_content container">
+                <h2 class="nav_title">Tech<span id="nav_title_gradient_color">Wave</span></h2>
 
-            <ul class="nav_menu">
-                <li class="nav_item"><a href="" class="nav_link">About</a></li>
-                <li class="nav_item"><a href="" class="nav_link">Episodes</a></li>
-                <li class="nav_item"><a href="" class="nav_link">Host</a></li>
-            </ul>
-            <button class="btn_primary">Subscribe</button>
+                <ul class="nav_menu">
+                    <li class="nav_item"><a href="" class="nav_link">About</a></li>
+                    <li class="nav_item"><a href="" class="nav_link">Episodes</a></li>
+                    <li class="nav_item"><a href="" class="nav_link">Host</a></li>
+                </ul>
+
+                <button class="btn_primary nav_button">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+                <div class="nav_icon">
+                    <i class="fa-solid fa-bars nav_hamburger"></i>
+                </div>
+            </div>
         </nav>
         <!-- nav section end -->
 
+        <!-- hero section start -->
+        <!-- <section class="hero_section_container">
+            <div class="hero_content">
+                <div class="hero_image ">
+                    <img class="hero_circle" src="./assets/hero-circle.png" alt="">
+                    <img class="microphone" src="./assets/microphone.png" alt="">
+                </div>
+            </div>
+
+        </section> -->
+        <!-- hero section end -->
+
     </header>
     <!-- header section start here -->
+
+    <!-- main section start -->
+    <main>
+        <!-- about section start -->
+        <section class="about_container container">
+            <!-- div-1 -->
+            <div class="about_content">
+                <h3 class="about_title">About The Podcast</h3>
+                <p class="paragraph_1">
+                    TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.
+                    We break down complex topics into digestible insights, explore productivity strategies that actually
+                    work,
+                    and share stories of personal growth from industry leaders.
+                </p>
+                <p class="paragraph_2">
+                    Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
+                </p>
+            </div>
+            <!-- div-1 -->
+            <!-- div-2 -->
+             <div class="about_card_container">
+                <!-- card_1 -->
+                 <div class="card">
+                    <h3 class="card_title">150K+</h3>
+                    <p class="card_text">Monthly Listeners</p>
+                 </div>
+                 <div class="card">
+                    <h3 class="card_title">200+</h3>
+                    <p class="card_text">Episodes Published</p>
+                 </div>
+                 <div class="card">
+                    <div class="average_parent">
+                        <h3 class="card_title">4.9</h3>
+                        <i class="fa-solid fa-star average_icon"></i>
+                    </div>
+                    <p class="card_text">Average Rating</p>
+                 </div>
+                 <div class="card">
+                    <h3 class="card_title">50+</h3>
+                    <p class="card_text">Industry Experts</p>
+                 </div>
+             </div>
+            <!-- div-2 -->
+        </section>
+        <!-- about section end -->
+    </main>
+    <!-- main section end -->
 
 </body>
 
