@@ -147,6 +147,38 @@
     gap: 8px;
 }
 
+/* meet_container */
+.meet_container{
+    margin-top: 30px;
+}
+.meet_title{
+    font-size: 2.5rem;
+}
+
+.meet_card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.meet_card_description{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.meet_card_title{
+    font-size: 2rem;
+}
+
+.meet_social_icon{
+    justify-content: center;
+}
+
+
 
 /* Featured Episodes section end */
 }
@@ -233,7 +265,7 @@
     font-size: 1.3rem;
 }
 .why_card_paragraph{
-    font-size: 14px;
+    font-size: 1rem;
     line-height: 20px;
 }
 
@@ -266,6 +298,18 @@ iframe{
 
 .video_time_container{
     gap: 8px;
+}
+
+.meet_card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.meet_social_icon{
+    justify-content: center;
 }
 /* Featured Episodes section end */
 }

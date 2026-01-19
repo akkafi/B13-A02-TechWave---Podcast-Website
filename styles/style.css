@@ -273,6 +273,68 @@ iframe{
     align-items: center;
     color: #00FF88
 }
+
+/* meet_container */
+.meet_container{
+    margin-top: 70px;
+}
+.meet_content{
+    text-align: center;
+}
+.meet_title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.meet_card{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    background-color: #351165;
+    padding: 40px;
+    border-radius: 40px;
+}
+
+.meet_card_description{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.meet_card_title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.meet_card_text{
+    font-size: 1rem;
+    color: #FFFFFF;
+    line-height: 24px;
+}
+
+.meet_social_icon{
+    display: flex;
+    gap: 20px;
+
+}
+
+.meet_social_icon .icon{
+    border: 1px solid #533C72;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+
+}
+.meet_social_icon .icon:hover{
+        box-shadow: 0px 0px 20px red ;
+        transition: .5s;
+}
 /* Featured Episodes section end */
 
 
