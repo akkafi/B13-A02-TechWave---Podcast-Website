@@ -178,9 +178,39 @@
     justify-content: center;
 }
 
-
-
 /* Featured Episodes section end */
+/* footer_container */
+footer{
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+.footer_container{
+    padding: 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.footer_content{
+    gap: 15px;
+}
+
+.footer_title{
+    font-size: 2rem;
+}
+
+
+
+.footer_social_icon{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    max-width: 641px;
+}
+.footer_copy_right{
+    color: #FFFFFF;
+    font-size: 0.8rem;
+}
+
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -312,4 +342,27 @@ iframe{
     justify-content: center;
 }
 /* Featured Episodes section end */
+/* footer_container */
+.footer_container{
+    padding: 80px;
+}
+
+.footer_title{
+    font-size: 3rem;
+}
+
+.footer_content{
+    gap: 25px;
+
+}
+
+.footer_social_icon{
+    gap: 20px;
+}
+
+.footer_icon{
+    font-size: 12px;
+
+}
+
 }
