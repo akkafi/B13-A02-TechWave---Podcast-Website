@@ -182,17 +182,17 @@ body {
     gap: 30px;
 }
 
-.big_img {
+.big_card {
     grid-column: span 2;
     grid-row: span 2;
 }
 
-.big_img_small {
+.small_card {
     grid-column: span 4;
     grid-row: span 1;
 }
 
-.small {
+.very_small_card {
     grid-column: span 2;
     grid-row: span 1;
 }

@@ -86,17 +86,17 @@
     gap: 25px;
 }
 
-.big_img {
+.big_card {
     grid-column: span 1;
     grid-row: span 1;
 }
 
-.big_img_small {
+.small_card {
     grid-column: span 1;
     grid-row: span 1;
 }
 
-.small {
+.very_small_card {
     grid-column: span 1;
     grid-row: span 1;
 }
@@ -175,17 +175,17 @@
     gap: 25px;
 }
 
-.big_img {
+.big_card {
     grid-column: span 1;
     grid-row: span 1;
 }
 
-.big_img_small {
+.small_card {
     grid-column: span 1;
     grid-row: span 1;
 }
 
-.small {
+.very_small_card {
     grid-column: span 1;
     grid-row: span 1;
 }
