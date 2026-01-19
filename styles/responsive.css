@@ -74,7 +74,9 @@
 .why_choose_container {
     padding-top: 50px;
 }
-
+.why_choose_parent {
+    background-color: #230E3D;
+}
 .why_choose_title {
     font-size: 1.5rem;
 }
@@ -119,6 +121,34 @@
 }
 
 /* why_choose_parent end */
+/* Featured Episodes section start */
+.featured_content{
+    padding: 70px 0;
+}
+.featured_title{
+    font-size: 2rem;
+}
+
+.video_container{
+    margin-top: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+
+.video_description{
+    padding: 16px;
+}
+
+.video_title{
+    font-size: 1.2rem;
+}
+
+.video_time_container{
+    gap: 8px;
+}
+
+
+/* Featured Episodes section end */
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -208,4 +238,34 @@
 }
 
 /* why_choose_parent end */
+/* Featured Episodes section start */
+.featured_content{
+    padding: 70px 0;
+}
+.featured_title{
+    font-size: 2rem;
+}
+
+.video_container{
+    margin-top: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+
+.video_description{
+    padding: 16px;
+    height: 200px;
+}
+iframe{
+    height: 500px;
+}
+
+.video_title{
+    font-size: 1.2rem;
+}
+
+.video_time_container{
+    gap: 8px;
+}
+/* Featured Episodes section end */
 }
