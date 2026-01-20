@@ -23,6 +23,17 @@
         color: white;
     }
 
+    /* hero */
+
+    .hero_section_container{
+    background: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+   max-height:760px;
+    border: 2px solid white;
+}
+
     /* nav section end */
 
     /* about section start */

@@ -1,8 +1,8 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 body {
     font-family: "Inter", sans-serif;
@@ -81,6 +81,86 @@ body {
 
 /* nav section end */
 
+/* hero section start  */
+
+.bg-image {
+    background:url(../assets/hero-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: top ;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.hero_circle{
+    background: url(../assets/hero-circle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 320px;
+}
+
+
+
+.hidden{
+    display: none;
+}
+
+/* .hero-img{
+    background: url(../assets/hero-circle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 320px;
+    width: 320px;
+} */
+
+.hero_section_container {
+    background: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    border: 2px solid white;
+}
+
+.hero_content {
+    /* padding: 100px 0; */
+}
+
+.hero_microphone_center {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_circle {
+    position: absolute;
+    /* max-width: 100%; */
+    /* max-height: 100%; */
+
+}
+
+.hero_new {
+    position: relative;
+    font-size: 20px;
+    top: 40px;
+    left: 16px;
+
+}
+
+.hero_microphone {
+    max-width: 100%;
+}
+
+.hero_microphone_center {
+    position: absolute;
+}
+
+.hero_text {
+    margin-top: 40px;
+}
+
+/* hero section end */
 
 /* header section end here */
 
@@ -119,7 +199,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 70px;
-        margin-bottom: 120px;
+    margin-bottom: 120px;
 }
 
 .about_card_container .card {
@@ -207,13 +287,14 @@ body {
     margin-top: 100px;
 }
 
-.why_card_title{
+.why_card_title {
     font-size: 1.5rem;
     font-weight: 700;
     color: #FFFFFF;
     margin: 16px 0;
 }
-.why_card_paragraph{
+
+.why_card_paragraph {
     font-size: 1rem;
     color: #FFFFFF;
     line-height: 24px;
@@ -222,52 +303,56 @@ body {
 /* why_choose_parent end */
 
 /* Featured Episodes section start */
-.featured_content{
+.featured_content {
     padding: 100px 0;
 }
-.featured_title{
+
+.featured_title {
     font-size: 3rem;
     font-weight: 700;
     color: #FFFFFF;
 }
-.featured_text{
+
+.featured_text {
     text-align: center;
 }
 
-.video_container{
+.video_container {
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
-iframe{
+
+iframe {
     width: 100%;
     height: 200px;
     border-radius: 24px 24px 0px 0px;
 }
 
-.video_description{
+.video_description {
     padding: 24px;
     background-color: #250D44;
     margin-top: -10px;
     border-radius: 0px 0px 24px 24px;
-    
+
 }
 
-.video_title{
+.video_title {
     font-size: 1.5rem;
     font-weight: 700;
     color: #FFFFFF;
     line-height: 29px;
 }
 
-.video_text{
+.video_text {
     font-size: 1rem;
     color: #FFFFFF;
     line-height: 24px;
     margin: 10px 0;
 }
-.video_time_container{
+
+.video_time_container {
     display: flex;
     gap: 10px;
     align-items: center;
@@ -275,20 +360,22 @@ iframe{
 }
 
 /* meet_container */
-.meet_container{
+.meet_container {
     margin-top: 70px;
 }
-.meet_content{
+
+.meet_content {
     text-align: center;
 }
-.meet_title{
+
+.meet_title {
     font-size: 3rem;
     font-weight: 700;
     color: #FFFFFF;
     margin-bottom: 40px;
 }
 
-.meet_card{
+.meet_card {
     display: flex;
     align-items: center;
     gap: 24px;
@@ -297,30 +384,31 @@ iframe{
     border-radius: 40px;
 }
 
-.meet_card_description{
+.meet_card_description {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.meet_card_title{
+.meet_card_title {
     font-size: 2rem;
     font-weight: 700;
     color: #FFFFFF;
 }
-.meet_card_text{
+
+.meet_card_text {
     font-size: 1rem;
     color: #FFFFFF;
     line-height: 24px;
 }
 
-.meet_social_icon{
+.meet_social_icon {
     display: flex;
     gap: 20px;
 
 }
 
-.meet_social_icon .icon{
+.meet_social_icon .icon {
     border: 1px solid #533C72;
     width: 40px;
     height: 40px;
@@ -331,33 +419,36 @@ iframe{
     cursor: pointer;
 
 }
-.meet_social_icon .icon:hover{
-        box-shadow: 0px 0px 20px red ;
-        transition: .5s;
+
+.meet_social_icon .icon:hover {
+    box-shadow: 0px 0px 20px red;
+    transition: .5s;
 }
+
 /* Featured Episodes section end */
 
 
 /* main section end */
 
-/* footer_container */
-footer{
+/* footer section start */
+footer {
     background: url(../assets/footer-bg.png);
-    background-size: cover ;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 100px;
     margin-bottom: 0px;
 }
-.footer_container{
+
+.footer_container {
     padding: 100px;
 }
 
-.footer_title{
+.footer_title {
     font-size: 4rem;
 }
 
-.footer_content{
+.footer_content {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -365,17 +456,15 @@ footer{
     align-items: center;
 }
 
-.footer_social_icon{
+.footer_social_icon {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* display: flex; */
     gap: 30px;
     justify-items: center;
     max-width: 641px;
-    /* border: 2px solid white; */
 }
 
-.footer_icon{
+.footer_icon {
     display: flex;
     gap: 4px;
     font-size: 15px;
@@ -383,7 +472,9 @@ footer{
     color: white;
 }
 
-.footer_copy_right{
+.footer_copy_right {
     color: #FFFFFF;
     font-size: 1rem;
 }
+
+/* footer section end */
