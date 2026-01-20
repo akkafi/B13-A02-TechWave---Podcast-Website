@@ -86,9 +86,8 @@ body {
 .bg-image {
     background:url(../assets/hero-bg.png) ;
     background-repeat: no-repeat;
-    background-position: top ;
+    background-position: center ;
     background-size: cover;
-    padding: 100px 0;
 }
 
 .hero_circle{
@@ -99,65 +98,32 @@ body {
     height: 320px;
 }
 
+.hero_new_text{
+    box-shadow: 0px 0px 20px green;
+}
+
+
+/* hero_microphone animation */
+.hero_microphone {
+  animation: hero_microphone 1s ease-in infinite;
+}
+
+@keyframes hero_microphone {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 
 
 .hidden{
     display: none;
-}
-
-/* .hero-img{
-    background: url(../assets/hero-circle.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 320px;
-    width: 320px;
-} */
-
-.hero_section_container {
-    background: url(../assets/hero-bg.png);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    border: 2px solid white;
-}
-
-.hero_content {
-    /* padding: 100px 0; */
-}
-
-.hero_microphone_center {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.hero_circle {
-    position: absolute;
-    /* max-width: 100%; */
-    /* max-height: 100%; */
-
-}
-
-.hero_new {
-    position: relative;
-    font-size: 20px;
-    top: 40px;
-    left: 16px;
-
-}
-
-.hero_microphone {
-    max-width: 100%;
-}
-
-.hero_microphone_center {
-    position: absolute;
-}
-
-.hero_text {
-    margin-top: 40px;
 }
 
 /* hero section end */
