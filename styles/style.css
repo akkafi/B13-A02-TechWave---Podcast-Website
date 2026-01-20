@@ -10,7 +10,7 @@ body {
 }
 
 /* common class start */
-.container {
+.container_main {
     max-width: 85%;
     margin: 0 auto;
 }
